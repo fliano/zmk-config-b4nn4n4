@@ -1,0 +1,13 @@
+file_format: "1"
+id: tracktyl
+name: tracktyl
+type: shield
+url: https://github.com/foostan/crkbd/
+requires:
+  - pro_micro
+exposes:
+features:
+  - keys
+siblings:
+  - tracktyl_left
+  - tracktyl_right
