@@ -19,7 +19,7 @@
 							&kp Z 	&kp X 	&kp C 				&kp V     		&kp B    							&kp K 		&kp M       	&kp CMMA &kp DOT &kp FSLH
 									&none 	&mt LCTRL K_CMENU 	&lt 1 RET 		&mt LSHIFT SPACE    							&lt 2 BSPC  	&kp RGUI  &kp LALT
 																&kp Q			&kp Q								
-																&kp Q			&kp Q								&none		&none
+																&kp Q			&kp Q								&kp Q		&kp Q
                         >;
                 };
                 lower_layer {
