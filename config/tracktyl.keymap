@@ -35,12 +35,12 @@
 
                 raise_layer {
                         bindings = <
-						   &kp ESC    	&kp HOME   		&kp UP   		&kp END    		&kp PLUS       			    &none     		&none        &none       	&none      	&none
-						   &kp TAB      &kp LEFT   		&kp DOWN		&kp RIGHT  		&kp MINUS   		    	&none	    	&kp RSHIFT   &kp LALT     	&none       &none
-						   &kp BSPC 	&kp C_PREV 		&kp C_PP 		&kp C_NEXT 		&none           			&none		 	&none		 &none			&none 		&none
-														&none		&none 	&mt LSHIFT SPACE     					        &none		 &none		  	&none
-																		&none			&none
-																		&none			&none						&none		&none
+						   &mt ESC C_AC_CLOSE   	&kp HOME   		&kp UP   	&kp END    		&kp PLUS       			    &none     		&none        &none       	&none      	&none
+						   &kp TAB      			&kp LEFT   		&kp DOWN	&kp RIGHT  		&kp MINUS   		    	&none	    	&kp RCTRL	 &kp RGUI     	&kp RALT   	&none
+						   &none	 				&none 	 		&none  		&none 			&none           			&none		 	&none		 &none			&none 		&none
+																	&none		&none 			&mt LSHIFT SPACE     					    &none		 &none		  	&none
+																				&none			&none
+																				&none			&none						&none			&none
 						>;
                 };
         };
