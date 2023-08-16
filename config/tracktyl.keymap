@@ -19,7 +19,7 @@
 							&kp Z 	&kp X 	&kp C 				&kp V     		&kp B    							&kp K 		&kp M       	&kp CMMA &kp DOT &kp FSLH
 									&none 	&none           	&lt 1 RET 		&mt LSHIFT SPACE    							&lt 2 BSPC  	&none    &none
 																&none			&none								
-																&none		    &none								&none		&none
+																&none		    &none								&kp K_NEXT		&kp K_PREV
                         >;
                 };
                 lower_layer {
@@ -35,12 +35,12 @@
 
                 raise_layer {
                         bindings = <
-						   &mt ESC C_AC_CLOSE   	&kp HOME   		&kp UP   	&kp END    		&kp PLUS       			    &none     		&none        &none       	&none      	&none
-						   &kp TAB      			&kp LEFT   		&kp DOWN	&kp RIGHT  		&kp MINUS   		    	&none	    	&kp RCTRL	 &kp RGUI     	&kp RALT   	&none
-						   &none	 				&none 	 		&none  		&none 			&none           			&none		 	&none		 &none			&none 		&none
-																	&none		&none 			&mt LSHIFT SPACE     					    &none		 &none		  	&none
-																				&none			&none
-																				&none			&none						&none			&none
+						   &mt ESC LA(F4)   	&kp HOME   		&kp UP   	&kp END    		&kp PLUS       			    &none     		&none        &none       	&none      	&none
+						   &kp TAB      		&kp LEFT   		&kp DOWN	&kp RIGHT  		&kp MINUS   		    	&none	    	&kp RCTRL	 &kp RGUI     	&kp RALT   	&none
+						   &none	 			&none 	 		&none  		&none 			&none           			&none		 	&none		 &none			&none 		&none
+																&none		&none 			&mt LSHIFT SPACE     					    &none		 &none		  	&none
+																			&none			&none
+																			&none			&none						&none			&none
 						>;
                 };
         };
