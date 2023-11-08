@@ -13,4 +13,6 @@ if SHIELD_MY_BOARD_LEFT || SHIELD_MY_BOARD_RIGHT
 config ZMK_SPLIT
     default y
 
+config ZMK_SLEEP
+	default y
 endif
