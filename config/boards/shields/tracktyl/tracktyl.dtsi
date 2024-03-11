@@ -38,15 +38,17 @@
             , <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row E from the schematic file
 			;
 
-    }; 
-};
-
+    };   
+	
 	/* Configure trackballs (either split can have the trackball) */
 	trackballs {
 		compatible = "zmk,keymap-trackballs";
 		trackballs = <&trackball>;
 	};
 
+};
+
+	
 	/* Declare the trackball */
 	&spi2 {
 		compatible = "nordic,nrf-spim";
