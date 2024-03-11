@@ -1,16 +1,10 @@
-if Tracktyl_LEFT
+if SHIELD_MY_BOARD_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "Tracktyl"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
-
-endif
-
-if Tracktyl_Right
-config ZMK_KEYBOARD_NAME
-  default "Tracktyl-slave"
 
 endif
 
