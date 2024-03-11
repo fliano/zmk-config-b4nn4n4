@@ -38,9 +38,10 @@
             , <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row E from the schematic file
 			;
 
-    };
-	
-	 /* Configure trackballs (either split can have the trackball) */
+    }; 
+};
+
+	/* Configure trackballs (either split can have the trackball) */
 	trackballs {
 		compatible = "zmk,keymap-trackballs";
 		trackballs = <&trackball>;
@@ -58,4 +59,3 @@
 			spi-max-frequency = <2000000>;
 			duplex = <2048>; // required by 3-wire spi
 	};
-};
