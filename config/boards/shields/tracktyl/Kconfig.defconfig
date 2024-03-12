@@ -14,7 +14,7 @@ config ZMK_KEYBOARD_NAME
 
 endif
 
-if SHIELD_MY_BOARD_LEFT || SHIELD_MY_BOARD_RIGHT
+if Tracktyl_LEFT || Tracktyl_RIGHT
 
 config ZMK_SPLIT
     default y
