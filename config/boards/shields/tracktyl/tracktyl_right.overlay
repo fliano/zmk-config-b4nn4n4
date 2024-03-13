@@ -19,13 +19,13 @@
 /* Enable spi2 bus and the trackball, and define their pins */
 &spi2 {
   status = "okay";
-  sck-pin = <&pro_micro 15>;
-  mosi-pin = <&pro_micro 16>;
-  miso-pin = <&pro_micro 16>; // same as mosi (3-wire spi)
-  cs-gpios = <&pro_micro 2 GPIO_ACTIVE_LOW>;
+  sck-pin = <8>;
+  mosi-pin = <17>;
+  miso-pin = <17>; // same as mosi (3-wire spi)
+  cs-gpios = <&gpio0 20 GPIO_ACTIVE_LOW>;
 };
 
 &trackball {
   status = "okay";
-  irq-gpios = <&pro_micro 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+  irq-gpios = <&gpio0 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 };

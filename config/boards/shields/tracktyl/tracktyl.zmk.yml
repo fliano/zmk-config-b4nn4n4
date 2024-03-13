@@ -8,6 +8,7 @@ requires:
 exposes:
 features:
   - keys
+  - pointer
 siblings:
   - tracktyl_left
   - tracktyl_right
