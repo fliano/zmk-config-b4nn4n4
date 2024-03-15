@@ -50,7 +50,7 @@
 
 	
 	/* Declare the trackball */
-	&spi2 {
+	&spi0 {
 		compatible = "nordic,nrf-spim";
 
 		trackball: trackball@0 {
