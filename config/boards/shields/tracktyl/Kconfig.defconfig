@@ -1,4 +1,4 @@
-if Tracktyl_LEFT
+if Tracktyl_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "Tracktyl"
@@ -8,7 +8,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if Tracktyl_RIGHT
+if Tracktyl_LEFT
 config ZMK_KEYBOARD_NAME
   default "Tracktyl-slave"
 
