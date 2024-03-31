@@ -7,12 +7,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
-
-if Tracktyl_RIGHT
-config ZMK_KEYBOARD_NAME
-  default "Tracktyl-slave"
-
-endif
+ 
 
 if Tracktyl_LEFT || Tracktyl_RIGHT
 
@@ -21,4 +16,4 @@ config ZMK_SPLIT
 
 config ZMK_SLEEP
 	default y
-endif
+endif 
