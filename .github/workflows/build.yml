@@ -2,4 +2,4 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: fliano/zmkPmw3610/.github/workflows/build-user-config.yml@main
+    uses: fliano/zmk/.github/workflows/build-user-config.yml@pmw3610
