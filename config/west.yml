@@ -1,11 +1,11 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/ufan
+      url-base: https://github.com/fliano
   projects:
-    - name: zmk
+    - name: zmkPmw3610
       remote: zmkfirmware
-      revision: blade
+      revision: pmw3610
       import: app/west.yml
   self:
     path: config
